@@ -1,0 +1,34 @@
+{
+  "name": "isomorphic-react",
+  "version": "0.0.1",
+  "description": "Sample NodeJS app which uses Babel and Webpack to create a simple React app demonstrating isomorphic components",
+  "main": "app.jsx",
+  "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "express": "^4.13.4",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "nodemon": "^1.9.2",
+    "webpack": "^1.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamms/isomorphic-react"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "dev": "webpack --progress --colors --watch",
+    "build": "webpack -p"
+  },
+  "author": "Elijah Hamovitz <elijah@hamovitz.com>",
+  "license": "WTFPL"
+}
