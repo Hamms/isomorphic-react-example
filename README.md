@@ -10,16 +10,28 @@ Usage
 
 ```sh
 $ npm install
-$ npm run build # or "npm run dev" for incremental
-$ npm start     # or "npm run watch" for incremental
+```
+
+To build once and serve:
+
+
+```sh
+$ npm run build:all
+$ npm start
+```
+
+To run an incrementally-built server:
+
+
+```sh
+$ npm run watch:all
 ```
 
 Then navigate to [http://localhost:8000](http://localhost:8000) and
 click on the button to see some reactive events in action.
 
 Try viewing the page source to ensure the HTML being sent from the
-server is already rendered (with checksums to determine whether
-client-side rendering is necessary)
+server is already rendered
 
 Requirements
 ------------

@@ -17,8 +17,10 @@ app.get('/', (req, res) => {
   res.end(ReactDOMServer.renderToStaticMarkup(<Html items={items}/>));
 });
 
-app.use(Express.static('dist'));
+app.use(Express.static('static'));
 
 app.listen(port, function () {
-  console.log('Example app listening on port 8000!');
+  console.log(`Example app listening on port ${port}!`);
 });
+
+export default app;

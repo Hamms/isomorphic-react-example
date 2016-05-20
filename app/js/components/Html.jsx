@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './shared/App.jsx';
+import App from './shared/App';
 
 export default function Html(props) {
   return (<html>
