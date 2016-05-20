@@ -1,5 +1,5 @@
 {
-  "name": "isomorphic-react",
+  "name": "isomorphic-react-example",
   "version": "0.0.1",
   "description": "Sample NodeJS app which uses Babel and Webpack to create a simple React app demonstrating isomorphic components",
   "main": "app.jsx",
@@ -11,6 +11,7 @@
     "babel-register": "^6.9.0",
     "express": "^4.13.4",
     "react": "^15.0.2",
+    "react-color": "^2.1.0",
     "react-dom": "^15.0.2"
   },
   "devDependencies": {
@@ -20,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hamms/isomorphic-react"
+    "url": "https://github.com/hamms/isomorphic-react-example"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
