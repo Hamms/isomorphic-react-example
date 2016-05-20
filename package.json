@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-react-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sample NodeJS app which uses Babel and Webpack to create a simple React app demonstrating isomorphic components",
   "main": "dist/js/main.js",
   "dependencies": {
